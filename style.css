@@ -1,0 +1,159 @@
+.container{
+    width: 100vw;
+}
+section{
+    width: full;
+    border: 1px solid black;
+    margin: 10px;
+    height: 400px;
+    padding: 30px;
+
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.navbar{
+    border: 1px solid black;
+    padding: 0 10px;
+    
+}
+.nav-items img{
+    display: inline;
+    height: 50px;
+}
+.s1 > *{
+    margin: 40px;
+    width:full;
+}
+
+ul, ol{
+    list-style-type: none;
+    width: full;
+    
+    
+}
+.nav-items{
+    padding: 0 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items a:hover{
+    color: red;
+}
+
+li{
+    display: inline-block;
+    
+}
+
+input{
+    float: right;
+}
+aside img{
+    float: right;
+    height: 300px;
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+h1{
+    display: inline;
+    background-color: #fff;
+}
+button{
+    position: relative;
+    top: 90px;
+    background-color: red;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    animation: example 2s infinite alternate;
+
+}
+article{
+    height: 300px;
+}
+
+.card{
+    float: left;
+    width: 400px;
+    margin: 30px;
+    height: 350px;
+    padding: 10px;
+}
+
+.card img{
+    height: 200px;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.card a{
+    color: red;
+}
+
+.it img{
+    float: left;
+    margin: 0 10px;
+}
+
+.socials{
+    float: right;
+}
+
+.footer-logo{
+    float: left;
+}
+.socials{
+    float: right;
+}
+
+.socials a{
+    margin: 10px;
+    color: black;
+}
+
+.footer-lower{
+    text-align: center;
+    margin-top: 30px;
+    color: red;
+}
+
+.footer-lower p{
+    display: inline;
+    margin: 0 20px;
+}
+
+.footer-links{
+    text-align: center;
+}
+
+.footer-links a{
+    margin: 0 10px;
+}
+
+@keyframes example {
+    from {
+      background-color: red;
+    }
+    to {
+      background-color: blue;
+    }
+  }
+
+
+
+
+
+
+
+
